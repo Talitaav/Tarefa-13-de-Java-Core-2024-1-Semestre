@@ -3,6 +3,12 @@ package tarefa13;
 import java.util.Scanner;
 
 public class Exercicio10 {
+	/*
+		 * 10) Verificar se um número é primo: Implemente uma função que receba um
+		 * número inteiro como argumento e retorne verdadeiro se o número for primo e
+		 * falso caso contrário.
+		 * 
+		 */
 
 	public static boolean primo(int numero) {
 		if (numero <= 1) {
@@ -17,12 +23,7 @@ public class Exercicio10 {
 	}
 
 	public static void main(String[] args) {
-		/*
-		 * 10) Verificar se um número é primo: Implemente uma função que receba um
-		 * número inteiro como argumento e retorne verdadeiro se o número for primo e
-		 * falso caso contrário.
-		 * 
-		 */
+		
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Digite um número: ");
 		int numero = sc.nextInt();
