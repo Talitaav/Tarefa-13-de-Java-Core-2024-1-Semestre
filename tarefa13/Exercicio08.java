@@ -3,6 +3,11 @@ package tarefa13;
 import java.util.Scanner;
 
 public class Exercicio08 {
+	/*
+		 * 8) Calcular o fatorial de um número: Crie uma função que receba um número
+		 * inteiro como parâmetro e retorne o fatorial desse número.
+		 * 
+		 */
 	public static long cal(int numero) {
 		if (numero < 0) {
 			throw new IllegalArgumentException("O fatorial de um número negativo não está definido.");
@@ -18,11 +23,7 @@ public class Exercicio08 {
 	}
 
 	public static void main(String[] args) {
-		/*
-		 * 8) Calcular o fatorial de um número: Crie uma função que receba um número
-		 * inteiro como parâmetro e retorne o fatorial desse número.
-		 * 
-		 */
+		
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Digite um número: ");
 		int numero = sc.nextInt();
