@@ -3,6 +3,11 @@ package tarefa13;
 import java.util.Scanner;
 
 public class Exercicio09 {
+	/*
+		 * 9) Calcular a área de um retângulo: Desenvolva um método que receba a base e
+		 * a altura de um retângulo como parâmetros e retorne a área desse retângulo.
+		 * 
+		 */
 
 	public static double calcularArea(double base, double altura) {
 		double area = base * altura;
@@ -10,11 +15,7 @@ public class Exercicio09 {
 	}
 
 	public static void main(String[] args) {
-		/*
-		 * 9) Calcular a área de um retângulo: Desenvolva um método que receba a base e
-		 * a altura de um retângulo como parâmetros e retorne a área desse retângulo.
-		 * 
-		 */
+		
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Digite a base do retângulo: ");
 		double base = sc.nextDouble();
