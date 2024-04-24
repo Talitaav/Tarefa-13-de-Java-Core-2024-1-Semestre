@@ -3,17 +3,18 @@ package tarefa13;
 import java.util.Scanner;
 
 public class Exercicio04 {
+	/*
+		 * 4) Calcular a média de três números: Crie uma função que receba três números
+		 * como parâmetros e retorne a média desses números.
+		 * 
+		 */
 	
 	public static double calcularMedia(double num1, double num2, double num3) {
 		return (num1 + num2 + num3) / 3;
 	}
 
 	public static void main(String[] args) {
-		/*
-		 * 4) Calcular a média de três números: Crie uma função que receba três números
-		 * como parâmetros e retorne a média desses números.
-		 * 
-		 */
+		
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Digite tres números: ");
 		double num1 = sc.nextDouble();
