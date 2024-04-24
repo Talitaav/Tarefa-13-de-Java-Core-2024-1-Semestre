@@ -3,6 +3,11 @@ package tarefa13;
 import java.util.Scanner;
 
 public class Exercicio06 {
+	/*
+		 * 6) Calcular o máximo entre dois números: Implemente uma função que receba
+		 * dois números como parâmetros e retorne o maior deles.
+		 * 
+		 */
 
 	public static int Maximo(int num1, int num2) {
 		
