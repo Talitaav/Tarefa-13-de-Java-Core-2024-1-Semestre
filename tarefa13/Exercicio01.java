@@ -3,14 +3,15 @@ package tarefa13;
 import java.util.Scanner;
 
 public class Exercicio01 {
-
-	public static void main(String[] args) {
-		/*
+	/*
 		 * 1) Verificar se um número é par ou ímpar: Crie um método que receba um número
 		 * inteiro como parâmetro e retorne verdadeiro se o número for par e falso se
 		 * for ímpar.
 		 * 
 		 */
+
+	public static void main(String[] args) {
+		
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Digite um numero: ");
 		 int numero = sc.nextInt();
