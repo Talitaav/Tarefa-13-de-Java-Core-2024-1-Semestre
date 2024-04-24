@@ -3,6 +3,12 @@ package tarefa13;
 import java.util.Scanner;
 
 public class Exercicio03 {
+	/*
+		 * 3) Verificar se um número é positivo, negativo ou zero: Implemente um método
+		 * que receba um número como parâmetro e retorne uma mensagem indicando se o
+		 * número é positivo, negativo ou zero.
+		 * 
+		 */
 
 		public static String Numero(int num){
 			if(num > 0) {
@@ -14,12 +20,7 @@ public class Exercicio03 {
 			}
 		}
 	public static void main(String[] args) {
-		/*
-		 * 3) Verificar se um número é positivo, negativo ou zero: Implemente um método
-		 * que receba um número como parâmetro e retorne uma mensagem indicando se o
-		 * número é positivo, negativo ou zero.
-		 * 
-		 */
+		
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Digite um número: ");
 		int num = sc.nextInt();
